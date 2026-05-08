@@ -6,7 +6,5 @@ services:
     region: oregon
     plan: free
 
-    runtime: python-3.10.13
-
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
