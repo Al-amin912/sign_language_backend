@@ -5,3 +5,4 @@ mediapipe
 numpy
 joblib
 scikit-learn
+gunicorn
